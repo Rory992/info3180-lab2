@@ -1,0 +1,22 @@
+button{
+	color: blue;
+	background-color: gold;
+	border-radius: 5px;
+	width: 150px;
+}
+
+h2,p{
+	color: grey;
+}
+
+img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50px;
+}
+
+div{
+	border-radius: 15px;
+	padding: 10px;
+	background-color: lavender;
+}

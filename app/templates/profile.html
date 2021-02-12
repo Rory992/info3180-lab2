@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block css %}  
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/profile.css') }}">
+{% endblock%}
+
+
+{% block main %}
+	<img src="{{ url_for('static', filename='lab2.jpg') }}" alt="user_808_image">
+	<div>
+		<h1>Rory Young</h1>
+		<h2>@user_808</h2>
+		<h2>St. Elizabeth</h2>
+		<p> {{ date }} </p>
+
+		<p> A short bio of myself, king waldo, a name given to him by his trusted firends in high school.</p>
+		<p>10 Posts</p>
+		<p>321 Following</p>
+		<p>432 Followers</p>
+		<button> Follow </button>
+	</div>
+{% endblock %}
