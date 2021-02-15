@@ -60,7 +60,7 @@ def profile():
 
 def format_date_joined():
     date_joined = datetime.date(2021, 2, 9)
-    date = "Joined " + date_joined.strftime("%B, %Y")
+    date = "Joined " + date_joined.strftime("%b, %Y")
     return date
     
 
